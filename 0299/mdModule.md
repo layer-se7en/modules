@@ -25,7 +25,7 @@ ports (interfaces):
 
 -   *en*able: the en port is level sensitive and "gates" a register In a
     processor, many registers often share the same system-wide clock
-    signal and data bus. The en port allows a single bit be used to
+    signal and data bus. The en port allows a single bit to be used to
     designate which register be overwritten.
 
 -   *reset*, also called clear: this port is active low. When asserted
