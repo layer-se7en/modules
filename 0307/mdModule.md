@@ -124,7 +124,7 @@ The corresponding frame looks like the following:
 From the callee's perspective, some label definitions can be used to first compute the offsets to local variables:
 
 ```ttpasm
-someFunc_a: 0 // offset from where D points to to find local var a
+someFunc_a: 0 // offset from where D points to find local var a
 someFunc_b: someFunc_a 1 + // offset to local var b
 someFunc_c: someFunc_b 1 + // offset to local var c
 someFunc_localVarSize: someFunc_c 1 + // # bytes used for local vars
