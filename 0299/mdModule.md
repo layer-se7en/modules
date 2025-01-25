@@ -58,7 +58,7 @@ mechanism for all the components.
 Not all components of a processor are "clocked". A clocked component is
 one that updates or performs an operation when the clock input
 transitions (from low to high, or from high to low). For example, an
-adder or a subtractor is not clocked. Such circuits stars to respond to
+adder or a subtractor is not clocked. Such circuits starts to respond to
 input changes as soon as the changes occur.
 
 On the other hand, components like registers are clocked. This means
